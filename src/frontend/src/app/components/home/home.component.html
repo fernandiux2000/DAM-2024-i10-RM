@@ -1,0 +1,15 @@
+<!-- src/frontend/src/app/components/home/home.component.html -->
+<div *ngIf="loading">Cargando dispositivos...</div>
+
+<div *ngIf="!loading && devices.length === 0">
+  <p>No hay dispositivos disponibles.</p>
+</div>
+
+<div *ngIf="!loading && devices.length > 0">
+  <h2>Lista de Dispositivos</h2>
+  <ul>
+    <li *ngFor="let device of devices">
+      <strong>{{ device.nombre }}</strong> - Ubicación: {{ device.ubicacion }}
+    </li>
+  </ul>
+</div>
