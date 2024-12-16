@@ -20,11 +20,11 @@ Detalles de implementación:
 
 Al escribir http://localhost:8100/ en el navegador web se cargará el listado de todos los dispositivos de la tabla Dispositivos de la base de datos DAM.
 
-![alt text](Lista-Devices.png)
+![alt text](img/Lista-Devices.png)
 
 Se puede cargar un listado de mediciones.
 
-![alt text](Lista-Mediciones.png)
+![alt text](img/Lista-Mediciones.png)
 
 Endpoints disponibles:
 
